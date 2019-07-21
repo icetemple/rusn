@@ -14,6 +14,7 @@ def rusngettext(number, forms):
             return first
 
         if 1 < result_from_10 < 5:
+            print('wtf??')
             return second
 
     return third

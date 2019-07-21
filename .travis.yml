@@ -5,8 +5,11 @@ python:
   - '3.5'
   - '3.6'
   - '3.7'
+  - '3.8'
 install:
   - pip install -r requirements-test.txt
   - pip install -e .
 script:
-  - pytest
+  - coverage run -m pytest
+after_success:
+  - coveralls

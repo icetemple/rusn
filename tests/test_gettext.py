@@ -31,7 +31,7 @@ def test_second_jar_form(number):
     25, 26, 27, 28, 29, 105, 106, 107, 108, 109, 110, 111,
     112, 113, 114, 115, 116, 117, 118, 119, 120,
 ])
-def test_second_jar_form(number):
+def test_third_jar_form(number):
     assert rusngettext(number, JAR) == JAR.third
 
 
