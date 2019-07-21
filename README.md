@@ -1,6 +1,7 @@
-[![Build Status](https://travis-ci.org/icetemple/rusn.svg?branch=master)](https://travis-ci.org/icetemple/rusn)
-
 ## rusn
+
+[![Build Status](https://travis-ci.org/icetemple/rusn.svg?branch=master)](https://travis-ci.org/icetemple/rusn)
+[![Coverage Status](https://coveralls.io/repos/github/icetemple/rusn/badge.svg?branch=master)](https://coveralls.io/github/icetemple/rusn?branch=master)
 
 Small library for getting russian text with singular and plural forms
 
