@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0b13143b88042e2b165b06b671268c82e21df3d89bb22eff7ba8202187d328ac"
+            "sha256": "e8336336dbbdd3784b4f6f04c425e089571fbe19ec6852e20a6dc31ac8137585"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -80,10 +80,6 @@
             ],
             "index": "pypi",
             "version": "==5.0.1"
-        },
-        "rusn": {
-            "editable": true,
-            "path": "."
         },
         "six": {
             "hashes": [

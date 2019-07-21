@@ -33,3 +33,10 @@ def test_second_jar_form(number):
 ])
 def test_second_jar_form(number):
     assert rusngettext(number, JAR) == JAR.third
+
+
+@pytest.mark.parametrize('number', list(range(1, 40)))
+def test_string_form(number):
+    assert rusngettext(number, JAR.first) == JAR.first
+    assert rusngettext(number, JAR.second) == JAR.second
+    assert rusngettext(number, JAR.third) == JAR.third
